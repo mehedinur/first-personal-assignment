@@ -3,15 +3,11 @@ body{
     
     }
      
+h1{
+    font-family: 'serif';
 }
 
-h1{
-   font-size: 50px;
-   font-family: 'DM Serif Display', serif;
-}
-.middle-text{
-    text-align: center;
-}
+
 h2{
     font-size: 40px;
     
@@ -23,7 +19,15 @@ h3{
 .color-change{
     color: chocolate;
 }
-
+#shadow{
+    border-left: 3px solid;
+    border-color: chocolate;
+    border-image-slice: 1;
+}
+   
+.middle-text{
+    text-align: center;
+}
 .flexible-container{
     display: flex;
     
@@ -37,6 +41,7 @@ h3{
 
 }
 
+ 
 
 .link-button{
     text-decoration: none;
@@ -58,9 +63,41 @@ section{
 }
 
 .third-one img{
-    width: 80%;
+    width: 100%;
 }
- 
+.Mission{
+    width: 33.33%;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: purple;
+}
+
+.vision{
+    width: 33.33%;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: lightpink;
+}
+
+.Goal{
+    width: 33.33%;
+    height: auto;
+    margin-left: 3%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 30px;
+    background-color: plum;
+}
+
 .side-gaph{
     margin: 70px;
 }
